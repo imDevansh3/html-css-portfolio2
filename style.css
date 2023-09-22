@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #333; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+header {
+    background-color: #8db600; 
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.contact-info {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.contact-info a {
+    text-decoration: none;
+    margin: 10px;
+    color: #8db600; 
+}
+
+.contact-info img {
+    width: 32px;
+    height: 32px;
+    cursor: pointer;
+}
+
+.section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 80%;
+    color: #333; 
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #8db600; 
+}
+ul {
+    list-style-type: none; 
+    padding-left: 0; 
+}
+
+li {
+    margin: 5px 0; 
+}
+li::before {
+    content: "\2022";
+    color: #8db600; 
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em;
+}
+
+
+p {
+    margin: 0;
+}
